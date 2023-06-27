@@ -1,0 +1,309 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mygroceryapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+13-->[com.facebook.flipper:flipper:0.125.0] /home/miguel/.gradle/caches/transforms-3/32e15e3c42606fd384da3acdee3b32b0/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /home/miguel/.gradle/caches/transforms-3/32e15e3c42606fd384da3acdee3b32b0/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:24.4.5] /home/miguel/.gradle/caches/transforms-3/8ada388af1af88e46c48e2415ade05db/transformed/jetified-firebase-firestore-24.4.5/AndroidManifest.xml:12:5-79
+15-->[com.google.firebase:firebase-firestore:24.4.5] /home/miguel/.gradle/caches/transforms-3/8ada388af1af88e46c48e2415ade05db/transformed/jetified-firebase-firestore-24.4.5/AndroidManifest.xml:12:22-76
+16
+17    <queries>
+17-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:10:5-39:15
+18        <intent>
+18-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:11:9-17:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:13-65
+19-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:21-62
+20
+21            <data
+21-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:14:13-16:38
+22                android:mimeType="*/*"
+22-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:15:17-39
+23                android:scheme="*" />
+23-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:16:17-35
+24        </intent>
+25        <intent>
+25-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:18:9-27:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:13-65
+26-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:21-62
+27
+28            <category android:name="android.intent.category.BROWSABLE" />
+28-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:21:13-74
+28-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:21:23-71
+29
+30            <data
+30-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:14:13-16:38
+31                android:host="pay"
+32                android:mimeType="*/*"
+32-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:15:17-39
+33                android:scheme="upi" />
+33-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:16:17-35
+34        </intent>
+35        <intent>
+35-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:28:9-30:18
+36            <action android:name="android.intent.action.MAIN" />
+36-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:20:13-65
+36-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:20:21-62
+37        </intent>
+38        <intent>
+38-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:31:9-35:18
+39            <action android:name="android.intent.action.SEND" />
+39-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:32:13-65
+39-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:32:21-62
+40
+41            <data android:mimeType="*/*" />
+41-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:14:13-16:38
+41-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:15:17-39
+42        </intent>
+43        <intent>
+43-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:36:9-38:18
+44            <action android:name="rzp.device_token.share" />
+44-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:13-61
+44-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:21-58
+45        </intent>
+46    </queries>
+47
+48    <uses-feature
+48-->[com.google.android.gms:play-services-maps:17.0.0] /home/miguel/.gradle/caches/transforms-3/0af6556b90e2cbde14695f9d73bb810c/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+49        android:glEsVersion="0x00020000"
+49-->[com.google.android.gms:play-services-maps:17.0.0] /home/miguel/.gradle/caches/transforms-3/0af6556b90e2cbde14695f9d73bb810c/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+50        android:required="true" />
+50-->[com.google.android.gms:play-services-maps:17.0.0] /home/miguel/.gradle/caches/transforms-3/0af6556b90e2cbde14695f9d73bb810c/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+51
+52    <application
+52-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:5:5-24:19
+53        android:name="com.mygroceryapp.MainApplication"
+53-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:6:7-38
+54        android:allowBackup="false"
+54-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:10:7-34
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.7.0] /home/miguel/.gradle/caches/transforms-3/5c85eefd62ee9cacecdf09834619c6ef/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+56        android:debuggable="true"
+57        android:icon="@mipmap/ic_launcher"
+57-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:8:7-41
+58        android:label="@string/app_name"
+58-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:7:7-39
+59        android:roundIcon="@mipmap/ic_launcher_round"
+59-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:9:7-52
+60        android:theme="@style/AppTheme"
+60-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:11:7-38
+61        android:usesCleartextTraffic="true" >
+61-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/debug/AndroidManifest.xml:8:9-44
+62        <activity
+62-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/debug/AndroidManifest.xml:11:9-111
+63            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+63-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/debug/AndroidManifest.xml:11:19-83
+64            android:exported="false" />
+64-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/debug/AndroidManifest.xml:11:84-108
+65        <activity
+65-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:12:7-23:18
+66            android:name="com.mygroceryapp.MainActivity"
+66-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:13:9-37
+67            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+67-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:15:9-118
+68            android:exported="true"
+68-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:18:9-32
+69            android:label="@string/app_name"
+69-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:14:9-41
+70            android:launchMode="singleTask"
+70-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:16:9-40
+71            android:windowSoftInputMode="adjustResize" >
+71-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:17:9-51
+72            <intent-filter>
+72-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:19:9-22:25
+73                <action android:name="android.intent.action.MAIN" />
+73-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:20:13-65
+73-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:20:21-62
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:21:13-73
+75-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:21:23-70
+76            </intent-filter>
+77        </activity>
+78
+79        <meta-data
+79-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+80            android:name="app_data_collection_default_enabled"
+80-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+81            android:value="true" />
+81-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+82
+83        <service
+83-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+85            android:directBootAware="true"
+85-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+86            android:exported="false" >
+86-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+87            <meta-data
+87-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+88                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+88-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-firestore:24.4.5] /home/miguel/.gradle/caches/transforms-3/8ada388af1af88e46c48e2415ade05db/transformed/jetified-firebase-firestore-24.4.5/AndroidManifest.xml:19:13-21:85
+91                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+91-->[com.google.firebase:firebase-firestore:24.4.5] /home/miguel/.gradle/caches/transforms-3/8ada388af1af88e46c48e2415ade05db/transformed/jetified-firebase-firestore-24.4.5/AndroidManifest.xml:20:17-111
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-firestore:24.4.5] /home/miguel/.gradle/caches/transforms-3/8ada388af1af88e46c48e2415ade05db/transformed/jetified-firebase-firestore-24.4.5/AndroidManifest.xml:21:17-82
+93        </service>
+94
+95        <provider
+95-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+96            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+96-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+97            android:authorities="com.mygroceryapp.reactnativefirebaseappinitprovider"
+97-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+98            android:exported="false"
+98-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+99            android:initOrder="99" />
+99-->[:react-native-firebase_app] /home/miguel/Downloads/mygroceryapp-master/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+100
+101        <activity
+101-->[:react-native-razorpay] /home/miguel/Downloads/mygroceryapp-master/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:86
+102            android:name="com.razorpay.CheckoutActivity"
+102-->[:react-native-razorpay] /home/miguel/Downloads/mygroceryapp-master/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-57
+103            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+103-->[:react-native-razorpay] /home/miguel/Downloads/mygroceryapp-master/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-83
+104            android:exported="true"
+104-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:54:13-36
+105            android:theme="@style/CheckoutTheme" >
+105-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:55:13-49
+106            <intent-filter>
+106-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:56:13-58:29
+107                <action android:name="android.intent.action.MAIN" />
+107-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:20:13-65
+107-->/home/miguel/Downloads/mygroceryapp-master/android/app/src/main/AndroidManifest.xml:20:21-62
+108            </intent-filter>
+109        </activity>
+110
+111        <provider
+111-->[com.google.firebase:firebase-common:20.3.2] /home/miguel/.gradle/caches/transforms-3/d501d11b51b9b45c2628fe2147cac516/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+112            android:name="com.google.firebase.provider.FirebaseInitProvider"
+112-->[com.google.firebase:firebase-common:20.3.2] /home/miguel/.gradle/caches/transforms-3/d501d11b51b9b45c2628fe2147cac516/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+113            android:authorities="com.mygroceryapp.firebaseinitprovider"
+113-->[com.google.firebase:firebase-common:20.3.2] /home/miguel/.gradle/caches/transforms-3/d501d11b51b9b45c2628fe2147cac516/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:20.3.2] /home/miguel/.gradle/caches/transforms-3/d501d11b51b9b45c2628fe2147cac516/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:20.3.2] /home/miguel/.gradle/caches/transforms-3/d501d11b51b9b45c2628fe2147cac516/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:20.3.2] /home/miguel/.gradle/caches/transforms-3/d501d11b51b9b45c2628fe2147cac516/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+117
+118        <receiver
+118-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:42:9-49:20
+119            android:name="com.razorpay.RzpTokenReceiver"
+119-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:43:13-57
+120            android:exported="true" >
+120-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:44:13-36
+121            <intent-filter>
+121-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:46:13-48:29
+122                <action android:name="rzp.device_token.share" />
+122-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:13-61
+122-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:21-58
+123            </intent-filter>
+124        </receiver>
+125
+126        <meta-data
+126-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:61:9-63:58
+127            android:name="com.razorpay.plugin.googlepay_all"
+127-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:62:13-61
+128            android:value="com.razorpay.RzpGpayMerged" />
+128-->[com.razorpay:checkout:1.6.32] /home/miguel/.gradle/caches/transforms-3/b4a67808f023e303ae1969ea1633f75d/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:63:13-55
+129
+130        <activity
+130-->[com.google.android.gms:play-services-auth:20.3.0] /home/miguel/.gradle/caches/transforms-3/2c72d4c775f629c439aaa1d0c0739c8c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+131            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+131-->[com.google.android.gms:play-services-auth:20.3.0] /home/miguel/.gradle/caches/transforms-3/2c72d4c775f629c439aaa1d0c0739c8c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+132            android:excludeFromRecents="true"
+132-->[com.google.android.gms:play-services-auth:20.3.0] /home/miguel/.gradle/caches/transforms-3/2c72d4c775f629c439aaa1d0c0739c8c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-auth:20.3.0] /home/miguel/.gradle/caches/transforms-3/2c72d4c775f629c439aaa1d0c0739c8c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-auth:20.3.0] /home/miguel/.gradle/caches/transforms-3/2c72d4c775f629c439aaa1d0c0739c8c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+135        <!--
+136            Service handling Google Sign-In user revocation. For apps that do not integrate with
+137            Google Sign-In, this service will never be started.
+138        -->
+139        <service
+139-->[com.google.android.gms:play-services-auth:20.3.0] /home/miguel/.gradle/caches/transforms-3/2c72d4c775f629c439aaa1d0c0739c8c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+140            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+140-->[com.google.android.gms:play-services-auth:20.3.0] /home/miguel/.gradle/caches/transforms-3/2c72d4c775f629c439aaa1d0c0739c8c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+141            android:exported="true"
+141-->[com.google.android.gms:play-services-auth:20.3.0] /home/miguel/.gradle/caches/transforms-3/2c72d4c775f629c439aaa1d0c0739c8c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+142            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+142-->[com.google.android.gms:play-services-auth:20.3.0] /home/miguel/.gradle/caches/transforms-3/2c72d4c775f629c439aaa1d0c0739c8c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+143            android:visibleToInstantApps="true" />
+143-->[com.google.android.gms:play-services-auth:20.3.0] /home/miguel/.gradle/caches/transforms-3/2c72d4c775f629c439aaa1d0c0739c8c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+144
+145        <meta-data
+145-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/miguel/.gradle/caches/transforms-3/efd8f21c668fc834d310b16af4f0a20b/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+146            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+146-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/miguel/.gradle/caches/transforms-3/efd8f21c668fc834d310b16af4f0a20b/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+147            android:value="GlideModule" /> <!-- Needs to be explicitly declared on P+ -->
+147-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/miguel/.gradle/caches/transforms-3/efd8f21c668fc834d310b16af4f0a20b/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+148        <uses-library
+148-->[com.google.android.gms:play-services-maps:17.0.0] /home/miguel/.gradle/caches/transforms-3/0af6556b90e2cbde14695f9d73bb810c/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+149            android:name="org.apache.http.legacy"
+149-->[com.google.android.gms:play-services-maps:17.0.0] /home/miguel/.gradle/caches/transforms-3/0af6556b90e2cbde14695f9d73bb810c/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+150            android:required="false" />
+150-->[com.google.android.gms:play-services-maps:17.0.0] /home/miguel/.gradle/caches/transforms-3/0af6556b90e2cbde14695f9d73bb810c/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+151
+152        <activity
+152-->[com.google.android.gms:play-services-base:18.0.1] /home/miguel/.gradle/caches/transforms-3/14534f11995b76409b349d353840fdfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+153            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+153-->[com.google.android.gms:play-services-base:18.0.1] /home/miguel/.gradle/caches/transforms-3/14534f11995b76409b349d353840fdfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-base:18.0.1] /home/miguel/.gradle/caches/transforms-3/14534f11995b76409b349d353840fdfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-base:18.0.1] /home/miguel/.gradle/caches/transforms-3/14534f11995b76409b349d353840fdfc/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+156
+157        <meta-data
+157-->[com.google.android.gms:play-services-basement:18.1.0] /home/miguel/.gradle/caches/transforms-3/b8b032a9f011549aa4242ce10998c5f2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+158            android:name="com.google.android.gms.version"
+158-->[com.google.android.gms:play-services-basement:18.1.0] /home/miguel/.gradle/caches/transforms-3/b8b032a9f011549aa4242ce10998c5f2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+159            android:value="@integer/google_play_services_version" />
+159-->[com.google.android.gms:play-services-basement:18.1.0] /home/miguel/.gradle/caches/transforms-3/b8b032a9f011549aa4242ce10998c5f2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+160
+161        <provider
+161-->[androidx.emoji2:emoji2:1.0.0] /home/miguel/.gradle/caches/transforms-3/9aaa1b590eb2f3bcac6c49d3fc8b84cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+162            android:name="androidx.startup.InitializationProvider"
+162-->[androidx.emoji2:emoji2:1.0.0] /home/miguel/.gradle/caches/transforms-3/9aaa1b590eb2f3bcac6c49d3fc8b84cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+163            android:authorities="com.mygroceryapp.androidx-startup"
+163-->[androidx.emoji2:emoji2:1.0.0] /home/miguel/.gradle/caches/transforms-3/9aaa1b590eb2f3bcac6c49d3fc8b84cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+164            android:exported="false" >
+164-->[androidx.emoji2:emoji2:1.0.0] /home/miguel/.gradle/caches/transforms-3/9aaa1b590eb2f3bcac6c49d3fc8b84cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+165            <meta-data
+165-->[androidx.emoji2:emoji2:1.0.0] /home/miguel/.gradle/caches/transforms-3/9aaa1b590eb2f3bcac6c49d3fc8b84cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+166                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+166-->[androidx.emoji2:emoji2:1.0.0] /home/miguel/.gradle/caches/transforms-3/9aaa1b590eb2f3bcac6c49d3fc8b84cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+167                android:value="androidx.startup" />
+167-->[androidx.emoji2:emoji2:1.0.0] /home/miguel/.gradle/caches/transforms-3/9aaa1b590eb2f3bcac6c49d3fc8b84cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+168            <meta-data
+168-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/miguel/.gradle/caches/transforms-3/a4ee5ae2a9f6a2d028dd8e6b11840bc8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+169                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+169-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/miguel/.gradle/caches/transforms-3/a4ee5ae2a9f6a2d028dd8e6b11840bc8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+170                android:value="androidx.startup" />
+170-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/miguel/.gradle/caches/transforms-3/a4ee5ae2a9f6a2d028dd8e6b11840bc8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+171        </provider>
+172    </application>
+173
+174</manifest>
